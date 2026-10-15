@@ -540,10 +540,10 @@
  "version": "1.0.0",
  "source": {
   "git": {
-   "head": "a4d93f4f85517f90e632b795486d7102e933d7ff",
-   "url": "https://github.com/brettwooldridge/HikariCP",
-   "branch": "dev",
-   "sha_verified_from": "GitHub API commits/dev | unified 2026-10-14 (API-exists + content/clone anchor)"
+   "url": "https://github.com/vectorize-io/hindsight",
+   "head": "01e2878f44f41ff4ef0ab58a262c28dc90bae54f",
+   "sha_verified_from": "revendor 2026-10-15: GitHub API commit lookup",
+   "previous_substitute": "https://github.com/brettwooldridge/HikariCP"
   }
  }
 }
