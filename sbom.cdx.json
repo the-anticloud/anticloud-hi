@@ -1,0 +1,172 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:f2a56765-af2e-5554-abe4-df94d18610b4",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-05T16:01:19Z",
+    "component": {
+      "type": "application",
+      "name": "HI",
+      "version": "7dcebc0d568e",
+      "bom-ref": "pkg:generic/anticloud/HI@7dcebc0d568e",
+      "purl": "pkg:generic/anticloud/HI@7dcebc0d568e",
+      "licenses": [
+        {
+          "license": {
+            "id": "AGPL-3.0"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "7dcebc0d568e37247d86a6477a7b4bb96c9ceee7"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/zemantic/fhir-auth"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "@prisma/client",
+      "version": "^5.0.0",
+      "purl": "pkg:npm/@prisma/client@^5.0.0",
+      "bom-ref": "npm/@prisma/client@^5.0.0"
+    },
+    {
+      "type": "library",
+      "name": "bcrypt",
+      "version": "^5.1.0",
+      "purl": "pkg:npm/bcrypt@^5.1.0",
+      "bom-ref": "npm/bcrypt@^5.1.0"
+    },
+    {
+      "type": "library",
+      "name": "cors",
+      "version": "^2.8.5",
+      "purl": "pkg:npm/cors@^2.8.5",
+      "bom-ref": "npm/cors@^2.8.5"
+    },
+    {
+      "type": "library",
+      "name": "dotenv",
+      "version": "^16.3.1",
+      "purl": "pkg:npm/dotenv@^16.3.1",
+      "bom-ref": "npm/dotenv@^16.3.1"
+    },
+    {
+      "type": "library",
+      "name": "express",
+      "version": "^4.21.2",
+      "purl": "pkg:npm/express@^4.21.2",
+      "bom-ref": "npm/express@^4.21.2"
+    },
+    {
+      "type": "library",
+      "name": "express-rate-limit",
+      "version": "^7.1.1",
+      "purl": "pkg:npm/express-rate-limit@^7.1.1",
+      "bom-ref": "npm/express-rate-limit@^7.1.1"
+    },
+    {
+      "type": "library",
+      "name": "jose",
+      "version": "^5.9.6",
+      "purl": "pkg:npm/jose@^5.9.6",
+      "bom-ref": "npm/jose@^5.9.6"
+    },
+    {
+      "type": "library",
+      "name": "morgan",
+      "version": "^1.10.0",
+      "purl": "pkg:npm/morgan@^1.10.0",
+      "bom-ref": "npm/morgan@^1.10.0"
+    },
+    {
+      "type": "library",
+      "name": "node-fetch",
+      "version": "^3.3.1",
+      "purl": "pkg:npm/node-fetch@^3.3.1",
+      "bom-ref": "npm/node-fetch@^3.3.1"
+    },
+    {
+      "type": "library",
+      "name": "passport",
+      "version": "^0.6.0",
+      "purl": "pkg:npm/passport@^0.6.0",
+      "bom-ref": "npm/passport@^0.6.0"
+    },
+    {
+      "type": "library",
+      "name": "passport-jwt",
+      "version": "^4.0.1",
+      "purl": "pkg:npm/passport-jwt@^4.0.1",
+      "bom-ref": "npm/passport-jwt@^4.0.1"
+    },
+    {
+      "type": "library",
+      "name": "@types/express",
+      "version": "^4.17.17",
+      "purl": "pkg:npm/@types/express@^4.17.17",
+      "bom-ref": "npm/@types/express@^4.17.17"
+    },
+    {
+      "type": "library",
+      "name": "@types/jest",
+      "version": "^29.5.2",
+      "purl": "pkg:npm/@types/jest@^29.5.2",
+      "bom-ref": "npm/@types/jest@^29.5.2"
+    },
+    {
+      "type": "library",
+      "name": "@types/node",
+      "version": "^22.10.2",
+      "purl": "pkg:npm/@types/node@^22.10.2",
+      "bom-ref": "npm/@types/node@^22.10.2"
+    },
+    {
+      "type": "library",
+      "name": "@types/passport",
+      "version": "^1.0.12",
+      "purl": "pkg:npm/@types/passport@^1.0.12",
+      "bom-ref": "npm/@types/passport@^1.0.12"
+    },
+    {
+      "type": "library",
+      "name": "jest",
+      "version": "^29.5.0",
+      "purl": "pkg:npm/jest@^29.5.0",
+      "bom-ref": "npm/jest@^29.5.0"
+    },
+    {
+      "type": "library",
+      "name": "esbuild",
+      "version": "^0.25.0",
+      "purl": "pkg:npm/esbuild@^0.25.0",
+      "bom-ref": "npm/esbuild@^0.25.0"
+    },
+    {
+      "type": "library",
+      "name": "nodemon",
+      "version": "^3.1.9",
+      "purl": "pkg:npm/nodemon@^3.1.9",
+      "bom-ref": "npm/nodemon@^3.1.9"
+    },
+    {
+      "type": "library",
+      "name": "prisma",
+      "version": "^5.0.0",
+      "purl": "pkg:npm/prisma@^5.0.0",
+      "bom-ref": "npm/prisma@^5.0.0"
+    }
+  ]
+}
