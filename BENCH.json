@@ -543,7 +543,7 @@
    "url": "https://github.com/vectorize-io/hindsight",
    "head": "01e2878f44f41ff4ef0ab58a262c28dc90bae54f",
    "sha_verified_from": "revendor 2026-10-15: GitHub API commit lookup",
-   "previous_substitute": "https://github.com/brettwooldridge/HikariCP"
+   "previous_substitute": "https://github.com/vectorize-io/hindsight"
   }
  }
 }
